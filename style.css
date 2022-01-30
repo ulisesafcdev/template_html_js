@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #1488CC;
+    background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);
+    background: linear-gradient(to right, #2B32B2, #1488CC);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h1 {
+    margin-top: 3rem;
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    height: auto;
+    background-color: rgba(217, 96, 152, 0.5);
+    border-radius: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1em;
+    margin: 3rem;
+}
+
+.card {
+    display: inline-block;
+    margin: 1em;
+    background-color: #222;
+}
+
+.card figcaption{
+    padding: 1rem;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
